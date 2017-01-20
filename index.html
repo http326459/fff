@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <title>分享下载页</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Phpop.css" />
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/Phpop.js" ></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+
+
+   		$(function(){
+   			$("#kaibtn").click(function(){
+   				$(window).scrollTop(250);
+   				bouncedy();
+   			});
+   			$("#guizeaa").click(function(){
+   				bounced();
+   			});
+   		})
+   	//实现滚动条无法滚动
+		var mo=function(e){e.preventDefault();};
+		
+		/***禁止滑动***/
+		function stop(){
+		        document.body.style.overflow='hidden';        
+		        document.addEventListener("touchmove",mo,false);//禁止页面滑动
+		}
+		
+		/***取消滑动限制***/
+		function move(){
+		        document.body.style.overflow='auto';//出现滚动条
+		        document.removeEventListener("touchmove",mo,false);        
+		}
+   		
+   		//蒙层
+		function modal_hy(){
+			var modal=document.createElement('div');
+			//location.href ="#top";
+			modal.id="b_modal";
+			modal.className="modal";
+			document.body.appendChild(modal);
+		}
+    </script>
+</head>
+<body>
+	<div class="container" id="indextwo">
+		<div class="header"><img src="images/shang.jpg"><a href="javascript:;" class="share" id="backTop"></a></div>
+		<div class="banner"><img src="images/zhong.jpg">
+			<a href="javascript:;" id="kaibtn"></a>
+		</div>
+		<div class="bot">
+			<div class="bot1"><img src="images/xia.jpg"><a href="load.html" id="expe"></a></div>
+		</div>
+		<a href="javascript:;" class="guizhe" id="guizeaa"><img src="images/guize.png"></a>
+	</div>
+</body>	
+</html>

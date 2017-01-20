@@ -1,0 +1,65 @@
+/*ss重置样式  */
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+*{margin:0;padding:0;}
+body{font-family:sans-serif;color:#333;}
+html{-webkit-text-size-adjust: 100%;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display: block;}
+i,b{font-style: normal;}
+a{text-decoration:none;}
+a:active,a:hover{outline:0;}
+img{vertical-align:top;width: 100%;}
+input,textarea,select,textarea,img{resize:none;outline: none;border: none;}
+button,input,optgroup,select,textarea{font: inherit; margin: 0;color: inherit;}
+button{overflow: visible;}
+button,select{text-transform: none;}
+button,html input[type='button'],input[type='reset'],input[type='submit']{cursor: pointer; -webkit-appearance: button;}
+button[disabled],html input[disabled]{cursor: default;}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.clearfixa:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1;}
+.clearfixb:before{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+/*ss重置样式  */
+
+/* index */
+#index,#indextwo,.banner,.header{position:relative;}
+#index .header .share{position:absolute;right:0;top:0;height:14%;width:14%;}
+#index .banner .giftbox{position:absolute;left:50%;top:0;perspective:1200px;width:75%;margin-left:-37%;}
+#index .banner .giftbox li{float:left;width:48%;margin:0 2px 8px 2px;transform-style:preserve-3d;}
+#index .banner .giftbox li div{transition:2s all;}
+#index .banner #kaibtn{position:absolute;left:50%;bottom:0;width:50%;margin-left:-25%;}
+#index .bot .bot1,.bot2{position:relative;}
+#index .bot .bot1 a{position:absolute;left:50%;top:0;width:52%;margin-left:-26%;height:42%;}
+#index .bot .bot2 a{position:absolute;left:50%;top:47%;display:block;width:25%;height:10%;margin-left:-14%;}
+.guizhe{position:fixed;right:3%;bottom:5%;width:20%;}
+.fins3d{transform:rotatey(360deg);}
+
+/* indextwo */
+#indextwo .header .share{position:absolute;left:50%;bottom:2%;height:5%;width:50%;display:block;margin-left:-25%;}
+#indextwo #kaibtn{position:absolute;right:4%;bottom:16%;height:32%;width:26%;display:block;}
+#indextwo .bot1{position:relative;}
+#indextwo .bot1 a{position:absolute;right:10%;bottom:15%;width:25%;}
+#indextwo .guizhe{position:fixed;right:3%;bottom:20%;width:20%;}
+/* indextwo */
+  
+@keyframes xiang{
+	0%{top:59%;}
+	30%,60%{top:53%;display:none;}
+	31%,61%{top:59%;display:block;}
+	90%{top:53%;display:block;}
+}
+
+/*新年心愿3*/
+#wishc{width:100%;overflow:hidden;}
+#wishc .yearc{position: relative;}
+#wishc .yearc span{display:block;font-size:16px;color:#fff;position:absolute;left:50%;top:64.5%;margin-left:-144px;width:85%;}
+#wishc .yearc a{display: block;height:8%;position:absolute;left:22%;bottom:18%;width:56%;}
+#wishc .yearc a:nth-of-type(2){bottom:8%;}
+
+/*新年心愿4*/
+#shenlong{position:relative;}
+#shenlong .kapian{position:absolute;left:50%;top:30%;width:80%;margin-left:-40%;}
+#shenlong .kapian li{width:48%;float:left;margin:0 2px 5px 2px;}
+#shenlong .fanhui{position:absolute;right:1%;top:1.5%;display:block;width:7.5%;height:5%;}
+#shenlong .duanhuan{position:absolute;left:50%;bottom:3%;display:block;width:40%;height:5.5%;margin-left:-20%;}

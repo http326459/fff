@@ -1,0 +1,29 @@
+.modal{background:rgba(6,3,6,0.8);position:fixed;top:0;left:0;z-index:10;width:100%;height:100%;}	
+.Loseheart{position:fixed;left:50%;top:50%;margin-top:-50%;z-index:99;margin-left:-40%;width:80%;}
+.Loseheart .shut{position:absolute;left:50%;bottom:6%;width:80%;margin-left:-40%;height:14%;}
+.Loseheart .inLoseheart{position:absolute;left:0;top:33%;width:100%;text-align:center;}
+.Loseheart .inLoseheart h3{color:#ff0000;font-size:28px;font-weight:bold;width:100%;padding-left:10%;color:#672402;text-align:left;}
+.Loseheart .inLoseheart p{font-size:17px;color:#672402;font-weight:bold;width:80%;display:inline-block;margin:0 auto;text-align:left;}
+.Loseheart .link{position:absolute;right:0;top:0;display:block;width:10%;height:10%;}
+
+
+.general{position:fixed;left:50%;top:50%;z-index:99;margin-left:-45%;width:90%;height:500px;margin-top:-250px;}
+.general img{height:100%;}
+.general .butto{position:absolute;right:5%;display:block;top:4%;width:8%;height:5%;z-index:66;}
+.general h3{position:absolute;left:0;top:7.8%;width:100%;text-align:center;font-size:16px;color:#672402;font-weight:bold;}
+.general .inGeneral{position:absolute;left:50%;top:15%;width:74%;margin-left:-36%;height:69%;overflow:hidden;overflow-y:auto;}
+.general .inGeneral h5{font-size:14px;color:#672402;font-weight:bold;}
+.general .inGeneral p{color:#672402;font-size:14px;}
+.general h4{position:absolute;left:0;bottom:9%;width:100%;text-align:center;font-size:12px;color:#672402;font-weight:bold;}
+
+
+.Losebifa{position:fixed;left:50%;top:50%;margin-top:-50%;z-index:99;margin-left:-40%;width:80%;}
+.shut{position:absolute;left:16%;bottom:6%;width:32%;height:8%;}
+.Losebifa .inLosebifa{position:absolute;left:50%;top:54%;width:28%;font-size:12px;color:#fff;font-weight:bold;margin-left:-14%;margin-top:-30px;text-align:center;}
+.Losebifa .inLosebifa p{font-size:32px;color:#fff;font-weight:bold;height:36px;}
+.Losebifa .inLosebifa p span{display:block;font-size:16px;font-weight:bold;}
+.fink{position:absolute;right:15%;bottom:6%;display:block;width:32%;height:8%;}
+.Losebifa .inLosebifa1{position:absolute;left:50%;top:50%;width:28%;font-size:28px;color:#fff;font-weight:bold;margin-left:-14%;margin-top:-24px;text-align:center;line-height:31px;}
+
+
+.xzty{position:fixed;left:50%;top:50%;margin-top:-50%;z-index:99;margin-left:-36%;width:70%;}
